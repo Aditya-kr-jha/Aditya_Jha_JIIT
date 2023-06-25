@@ -1,0 +1,34 @@
+{% extends 'base.html' %} {% block title %}Home|Page {% endblock title %}
+{%block content %}
+<!-- job post lists -->
+<section>
+  <div class="container">
+    <!-- job post -->
+    {% for user in users %}
+    <div class="post">
+      <!-- title and des -->
+      <div class="job-info">
+        <h1 class="job-title">{{user.first_name}} {{user.last_name}}</h1>
+        <div class="job-des">
+          <div class="location item">
+            <span class="material-icons"> place </span>
+            <p>{{user.city}}</p>
+          </div>
+          <div class="budget item">
+            <p>
+              <i class="fa-solid fa-venus-mars"></i>&nbsp;&nbsp;{{user.options}}
+            </p>
+          </div>
+          <div class="time item">
+            <p>
+              <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;{{user.email}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- job post end-->
+    {% endfor %}
+  </div>
+</section>
+{% endblock content %}
