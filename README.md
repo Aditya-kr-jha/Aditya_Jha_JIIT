@@ -25,12 +25,11 @@ This web application retrieves data from the server and displays it in a user-fr
 * You can repeat the process to enter additional data or navigate back to the home page to view the updated list.
 ## Screenshots
 
-![App Screenshot](./Screenshot(146).png)
-![App Screenshot](./Screenshot(147).png)
+![App Screenshot](Screenshots/Screenshot%20(146).png)
+![App Screenshot](Screenshots/Screenshot%20(147).png)
 
-![App Screenshot](./Screenshot(148).png)
+![App Screenshot](Screenshots/Screenshot%20(148).png)
 
-![App Screenshot](./Screenshot(149).png)
+![App Screenshot](Screenshots/Screenshot%20(149).png)
 
-![App Screenshot](./Screenshot(150).png)
-
+![App Screenshot](Screenshots/Screenshot%20(150).png)
