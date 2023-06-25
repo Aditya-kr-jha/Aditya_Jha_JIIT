@@ -1,12 +1,10 @@
 {% extends 'base.html' %} {% block title %}Home|Page {% endblock title %}
 {%block content %}
-<!-- job post lists -->
+
 <section>
   <div class="container">
-    <!-- job post -->
     {% for user in users %}
     <div class="post">
-      <!-- title and des -->
       <div class="job-info">
         <h1 class="job-title">{{user.first_name}} {{user.last_name}}</h1>
         <div class="job-des">
@@ -27,7 +25,7 @@
         </div>
       </div>
     </div>
-    <!-- job post end-->
+
     {% endfor %}
   </div>
 </section>
